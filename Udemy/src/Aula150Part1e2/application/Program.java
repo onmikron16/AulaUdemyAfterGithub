@@ -1,9 +1,9 @@
-package application;
+package Aula150Part1e2.application;
 
-import entities.Department;
-import entities.HourContract;
-import entities.Worker;
-import entities.WorkerLevel;
+import Aula150Part1e2.entities.Department;
+import Aula150Part1e2.entities.HourContract;
+import Aula150Part1e2.entities.Worker;
+import Aula150Part1e2.entities.WorkerLevel;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

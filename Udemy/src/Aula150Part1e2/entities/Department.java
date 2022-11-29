@@ -1,4 +1,4 @@
-package entities;
+package Aula150Part1e2.entities;
 
 public class Department {
 
