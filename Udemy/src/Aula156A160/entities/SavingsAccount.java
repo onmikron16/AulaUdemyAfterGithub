@@ -1,4 +1,4 @@
-package Aula156.entities;
+package Aula156A160.entities;
 
 public class SavingsAccount extends Account{
     private Double interestRate;
@@ -20,7 +20,7 @@ public class SavingsAccount extends Account{
     }
 
     @Override
-    public void withdraw(double value){
+    public final void withdraw(double value){
         balance -= value;
 
     }
