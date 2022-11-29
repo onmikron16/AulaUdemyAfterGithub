@@ -23,5 +23,10 @@ public class BusinessAccount extends Account{
         this.loanLimit = loanLimit;
     }
 
+    public void withdraw(double value){
+        super.withdraw(value);
+        balance -= 2d;
+    }
+
 
 }
